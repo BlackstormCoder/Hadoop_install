@@ -12,6 +12,6 @@ curl -s https://raw.githubusercontent.com/BlackstormCoder/Hadoop_install/main/ha
 
 ```
  
-
+![](https://raw.githubusercontent.com/BlackstormCoder/Hadoop_install/main/screenshot.png)
 
 ---
