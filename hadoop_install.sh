@@ -1,6 +1,4 @@
-#!/usr/bin/bash
-
-
+#!/bin/bash
 
 function banner()
 {
@@ -63,7 +61,7 @@ function installing_hadoop(){
 
 	if [[ ! -f 'hadoop-2.6.3.tar.gz' ]] 
 	then
-		wget https://archive.apache.org/dist/hadoop/common/hadoop-2.6.3/hadoop-2.6.3.tar.gz -O ~/hadoop-2.6.3.tar.gz
+		wget https://archive.apache.org/dist/hadoop/common/hadoop-2.6.3/hadoop-2.6.3.tar.gz
 	fi
 
 	tar -xzvf hadoop-2.6.3.tar.gz
