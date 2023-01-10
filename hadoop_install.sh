@@ -57,8 +57,8 @@ function installing_hadoop(){
 	echo -e "\u001b[31m------------------------------------\e[0m"
 	echo -e "\u001b[1;31mDownloading hadoop...\e[0m."
 	echo -e "\u001b[31m------------------------------------\e[0m"
-	echo -e "hello"	echo -e "hello"
-
+	echo -e "\n"
+	
 	if [[ ! -f 'hadoop-2.6.3.tar.gz' ]] 
 	then
 		wget https://archive.apache.org/dist/hadoop/common/hadoop-2.6.3/hadoop-2.6.3.tar.gz
