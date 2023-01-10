@@ -43,7 +43,7 @@ banner
 
 function updating(){
 	echo -e "\u001b[31m------------------------------------\e[0m"
-	echo -e "\u001b[1;31mUpdating the system first...."
+	echo -e "\u001b[1;31mUpdating the system first...\e[0m"
 	echo -e "\u001b[31m------------------------------------\e[0m"
 	echo -e "\n"
 	sudo apt update
@@ -55,7 +55,7 @@ updating
 
 function installing_hadoop(){
 	echo -e "\u001b[31m------------------------------------\e[0m"
-	echo -e "\u001b[1;31mDownloading hadoop...."
+	echo -e "\u001b[1;31mDownloading hadoop...\e[0m."
 	echo -e "\u001b[31m------------------------------------\e[0m"
 	echo -e "hello"	echo -e "hello"
 
@@ -74,14 +74,14 @@ installing_hadoop
 
 function setup_hadoop(){
 	echo -e "\u001b[31m------------------------------------\e[0m"
-	echo -e "\u001b[1;31mChanging the default java version...."
+	echo -e "\u001b[1;31mChanging the default java version...\e[0m"
 	echo -e "\u001b[31m------------------------------------\e[0m"
 	echo -e "\n"
 
 	sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
 
 	echo -e "\u001b[31m------------------------------------\e[0m"
- 	echo -e "\u001b[31mInitalizing the ssh"
+ 	echo -e "\u001b[31mInitalizing the ssh...\e[0m"
 	echo -e "\u001b[31m------------------------------------\e[0m"
 	echo -e "\n"
 
@@ -90,7 +90,7 @@ function setup_hadoop(){
 	sudo systemctl start sshd
 
 	echo -e "\u001b[31m------------------------------------\e[0m"
-	echo -e "\u001b[1;31mAdding Hadoop Variables...."
+	echo -e "\u001b[1;31mAdding Hadoop Variables...\e[0m"
 	echo -e "\u001b[31m------------------------------------\e[0m"
 	echo -e "\n"
 
@@ -136,7 +136,7 @@ setup_hadoop
 function config_hadoop(){
 
 	echo -e "\u001b[31m------------------------------------\e[0m"
-	echo -e "\u001b[1;31mConfiguring the Hadoop...."
+	echo -e "\u001b[1;31mConfiguring the Hadoop...\e[0m\e[0m\e[0m."
 	echo -e "\u001b[31m------------------------------------\e[0m"
 	echo -e "\n"
 
@@ -207,7 +207,7 @@ config_hadoop
 function start_hadoop(){
 	
 	echo -e "\u001b[31m------------------------------------\e[0m"
-	echo -e "\u001b[1;31mStarting The Hadoop...."
+	echo -e "\u001b[1;31mStarting The Hadoop...\e[0m"
 	echo -e "\u001b[31m------------------------------------\e[0m"
 	echo -e "\n"
 
